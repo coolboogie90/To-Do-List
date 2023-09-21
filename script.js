@@ -5,7 +5,7 @@ let deletedTodo;
 let isDone = false;
 
 while (!isDone) {
-    command = prompt('Enter a command: new, list, delete, quit \n --> new: add a todo \n --> list: see all the current todos \n --> delete: remove a specific todo from the list \n --> quit: exit the programm');
+    command = prompt('Enter a command: new, list, delete, quit \n --> new: add a todo \n --> list: see all the current todos \n --> delete: remove a specific todo from the list \n --> quit: exit the program');
 
     switch (command) {
         case 'new':
